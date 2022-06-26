@@ -254,6 +254,10 @@ a:hover {
 
 /* Start Btn-Style */
 
+.logo {
+    align-items: center;
+}
+
 .main_btn {
     color: #fff;
     font-size: 13px;
@@ -423,10 +427,9 @@ a:hover {
 }
 
 .banner_bg {
-    background-image: url(../images/Bati.png);
+    background-image: url(../images/banner.png);
     background-size: contain;
     background-position: right;
-    position: relative;
 }
 
 .banner_bg:before {
