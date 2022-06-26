@@ -804,8 +804,8 @@ a:hover {
 .item-img:hover {}
 
 .work_content_area .item-img:hover {
-    -webkit-box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.1);
-    box-shadow: -10px 10px 30px rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: -10px 10px 30px rgb(145, 132, 123, 0.5);
+    box-shadow: -10px 10px 30px rgb(145, 132, 123, 0.5);
 }
 
 .work_content_area .item-img:hover .item-img-overlay {
@@ -818,7 +818,7 @@ a:hover {
 }
 
 .work_content_area .item-img-overlay {
-    position: absolute;
+    position: relative;
     background: rgb(145, 132, 123, 0.5);
     height: 100%;
     width: 100%;
@@ -1070,6 +1070,11 @@ a:hover {
     padding: 10px;
     border: solid 1px white;
     border-radius: 50%;
+}
+
+.pading {
+    padding-bottom: 10px;
+    font-family: 'Poppins', sans-serif;
 }
 
 
